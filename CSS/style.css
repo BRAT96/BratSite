@@ -7,7 +7,7 @@
   }
 /*ФОН*/
 .header-bg {
- background: url(D:/Languages/HTML/MySite/Images/Background.png) center repeat;
+ background: url(Images/Background.png) center repeat;
  height: 150px;
  width: 100%;
  text-align: center;
@@ -22,7 +22,6 @@
   display: flex;
   background-color: #252525;
   border-top: solid 1px white;
-  border-bottom: solid 2px white;
   font-family: 'Playfair Display', serif;
   }
 .Br input{
@@ -60,7 +59,9 @@
     border-bottom: solid 2px white;
   }
 
-
+main {
+    border-top: solid 2px white;
+}
 
 
   /*Подвал*/
