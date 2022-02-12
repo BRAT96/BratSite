@@ -59,10 +59,21 @@
     border-bottom: solid 2px white;
   }
 
-main {
-    border-top: solid 2px white;
-}
 
+/*Главная*/
+main {
+    /*border-top: solid 2px white;*/
+}
+.photo{
+  text-align: center;
+  margin-top: 20px;
+}
+.photo p{
+
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 20px;
+}
 
   /*Подвал*/
   footer {
@@ -76,4 +87,9 @@ main {
     bottom:0px;
     height:45px;
     width:100%;
+  }
+  .site-footer p {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
   }
