@@ -1,0 +1,30 @@
+/*Главная*/
+main{
+  font-family: 'Playfair Display', serif;
+  color: white;
+  margin-left: 100px;
+}
+.main_page{
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  margin-top: 40px;
+}
+h3{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  margin-top: 40px;
+}
+.video {
+  text-align: center;
+  margin-top: 40px;
+}
+#about {
+  font-size: 25px;
+}
+.main_text{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.main_text li {
+  margin-top: 10px;
+}

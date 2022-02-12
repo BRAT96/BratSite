@@ -3,7 +3,8 @@
 
   <head>
     <title>EPIC BRAT</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/styleAll.css">
+      <link rel="stylesheet" type="text/css" href="CSS/styleMainPage.css">
     <link rel="shortcut icon" type="image/x-icon" href="Images/Icon.ico">
     <meta charset="utf-8">
     <meta name="author" content="БРАТ">
@@ -11,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -26,23 +30,35 @@
         <div class="Br">
 <input type="button" value="BR" onclick="audio.play ( )">
         </div>
-        <ul class="UlList">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="index.html">Анекдоты</a></li>
-          <li><a href="index.html">Рэпчик</a></li>
-          <li><a href="htmls/wanted.html">Разыскивается</a></li>
-        </ul>
+        <div class="nav_links">
+          <a class="nav__link" href="index.html">Главная</a>
+          <a class="nav__link" href="">Анекдоты</a>
+          <a class="nav__link" href="">Рэпчик</a>
+          <a class="nav__link" href="htmls/wanted.html">Разыскивается</a>
+        </div>
       </nav>
     </header>
 
     <main>
-
+      <h1 class="main_page">Главная страница</h1>
+      <h3>Сайт сделан в учебных и развлекательных целях.</h3>
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yRS5_yD2yKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p id="about">Добро пожаловать на сайт, где можно:</p>
+      <ul class = "main_text">
+        <li>Прочитать уморительные анекдоты.</li>
+        <li>Зачитать уникальный рэпчик, написанный нашими лучшими
+          текстовиками, или же зачитать всем известные строки под биты и без
+          - все что пожелаете!</li>
+        <li>Найти гайды на ваши любимые игры.</li>
+        <li>Прочитать блоги известных личностей.</li>
+      </ul>
     </main>
 
     <footer class="site-footer">
-      <p> 2022 | Работает с божьей помощью. </p>
+      <p>2022 | Работает с божьей помощью. </p>
     </footer>
-
 
   </body>
 </html>
