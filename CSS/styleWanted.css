@@ -1,9 +1,24 @@
-.photo{
-  text-align: center;
-  margin-top: 20px;
+main{
+  font-family: 'Playfair Display', serif;
+  color: white;
+  margin-left: 100px;
 }
-.photo p{
-    font-family: 'Playfair Display', serif;
-    color: white;
-    font-size: 20px;
+#begin {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+.blogs {
+
+}
+.blogs li {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.blogs__linq {
+  color: white;
+}
+.blogs__linq:hover{
+  color: #d1d1d1;
 }
