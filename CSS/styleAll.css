@@ -5,7 +5,10 @@
  header {
   display: block;
   }
-
+  main{
+    position: relative;
+    height: auto;
+  }
 /*ФОН*/
 .header-bg {
  background: url(../Images/Background.png) center repeat;
@@ -27,6 +30,9 @@
   border-bottom: solid 2px white;
   font-family: 'Playfair Display', serif;
   }
+.Br{
+  width: 50px;
+}
 .Br input{
   margin-top: 13px;
   outline: none;
@@ -83,7 +89,7 @@ main {
   footer {
     font-family: 'Playfair Display', serif;
     color: white;
-    position: relative;
+
   }
   .site-footer {
     border-top: solid 1px white;
