@@ -1,0 +1,59 @@
+#begin {
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+}
+p {
+  font-size: 20px;
+}
+/*Песни*/
+.songs{
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  border: solid 1px white;
+  margin-bottom: 100px;
+}
+.oglavSongs{
+  border-bottom: solid 1px white;
+  margin-bottom: 20px;
+}
+.oglavSongs p {
+  text-align: center;
+}
+.song{
+margin-left: 20px;
+margin-bottom: 40px;
+}
+.song p{
+  margin-left: 40px;
+}
+.song audio{
+  margin-left: 20px;
+}
+
+
+/*Текста*/
+.rapTexts{
+  width: 100%;
+  height: auto;
+  border: solid 1px white;
+}
+.oglavTexts{
+  border-bottom: solid 1px white;
+  margin-bottom: 20px;
+}
+.oglavTexts p {
+    text-align: center;
+}
+.rapText{
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.text{
+  margin-left: 0;
+  padding-left: 0;
+}
+.text li{
+  list-style-type: none;
+  margin-bottom: 5px;
+}

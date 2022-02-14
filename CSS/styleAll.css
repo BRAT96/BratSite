@@ -6,10 +6,7 @@
   display: block;
   position: relative;
   }
-  main{
-    position: relative;
-    height: auto;
-  }
+
 /*ФОН*/
 .header-bg {
  background: url(../Images/Background.png) center repeat;
@@ -27,7 +24,7 @@
   height: 70px;
   display: flex;
   position: relative;
-  background-color: #252525;
+  background: #252525;
   border-top: solid 1px white;
   border-bottom: solid 2px white;
   font-family: 'Playfair Display', serif;
@@ -73,7 +70,6 @@
     z-index: 1;
     transition: opacity .2s linear;
   }
-
   .nav__link:hover{
     color: white;
   }
@@ -81,16 +77,23 @@
     opacity: 1;
   }
 
-/*Главная*/
-main {
-
-}
+  /*Главная*/
+  main {
+    position: relative;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+  }
 
   /*Подвал*/
   footer {
     font-family: 'Playfair Display', serif;
     color: white;
-
   }
   .site-footer {
     border-top: solid 1px white;

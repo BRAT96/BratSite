@@ -1,9 +1,4 @@
 /*Главная*/
-main{
-  font-family: 'Playfair Display', serif;
-  color: white;
-  margin-left: 100px;
-}
 .main_page{
   font-family: 'Lobster', cursive;
   font-size: 50px;
@@ -23,7 +18,7 @@ h3{
 }
 .main_text{
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .main_text li {
   margin-top: 10px;

@@ -2,34 +2,38 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
   height: auto;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .blog p {
   color: white;
   font-family: 'Playfair Display', serif;
-  font-size: 25px;
+  font-size: 22px;
   margin-left: 20px;
   margin-right: 10px;
 }
-
 .blog img{
   margin-left: 50px;
 }
-
+/*Фото посередине*/
 .photo1{
   text-align: center;
 }
+.photo1 img{
+  margin-left: auto;
+  margin-right: auto;
+}
 .photo1 p {
     font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
-iframe {
-  margin-left: 50px;
-}
+/*Видео*/
 .video1{
   width: 560px;
   height: 315px;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
