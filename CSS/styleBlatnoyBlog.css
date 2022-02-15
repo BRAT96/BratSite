@@ -3,8 +3,8 @@
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .blog p {
   color: white;

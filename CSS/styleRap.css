@@ -1,6 +1,7 @@
 #begin {
   font-size: 40px;
   font-family: 'Lobster', cursive;
+  color: #b5a73c;
 }
 p {
   font-size: 20px;
@@ -10,11 +11,9 @@ p {
   margin-top: 50px;
   width: 100%;
   height: auto;
-  border: solid 1px white;
   margin-bottom: 100px;
 }
 .oglavSongs{
-  border-bottom: solid 1px white;
   margin-bottom: 20px;
 }
 .oglavSongs p {
@@ -36,10 +35,8 @@ margin-bottom: 40px;
 .rapTexts{
   width: 100%;
   height: auto;
-  border: solid 1px white;
 }
 .oglavTexts{
-  border-bottom: solid 1px white;
   margin-bottom: 20px;
 }
 .oglavTexts p {

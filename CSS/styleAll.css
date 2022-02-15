@@ -1,11 +1,7 @@
  body {
   margin: 0;
-  background: #252525;
+  background: black;
  }
- header {
-  display: block;
-  position: relative;
-  }
 
 /*ФОН*/
 .header-bg {
@@ -24,9 +20,9 @@
   height: 70px;
   display: flex;
   position: relative;
-  background: #252525;
-  border-top: solid 1px white;
-  border-bottom: solid 2px white;
+  background: #1a1a1a;
+  border-top: solid 1px #171717;
+  border-bottom: solid 1px #171717;
   font-family: 'Playfair Display', serif;
   }
 .Br{
@@ -40,8 +36,8 @@
   border: 0;
   font-size: 35px;
   cursor: pointer;
-  color: white;
-  background: #252525;
+  color: #b5a73c;
+  background: #1a1a1a;
   position: absolute;
   }
   .nav_links {
@@ -53,7 +49,7 @@
     display: inline-block;
     margin: 0 20px;
     position: relative;
-    color: white;
+    color: #b5a73c;
     text-decoration: none;
     transition: color .2s linear;
   }
@@ -88,20 +84,21 @@
     margin-right: auto;
     width: 85%;
     height: auto;
+    background: #262626;
+    padding: 30px;
   }
 
   /*Подвал*/
   footer {
     font-family: 'Playfair Display', serif;
-    color: white;
-  }
-  .site-footer {
-    border-top: solid 1px white;
+    color: #b5a73c;
+    background: #1a1a1a;
+    border-top: solid 1px #171717;
     flex: 0 0 auto;
-    height:25px;
+    height: 50px;
     width:100%;
   }
-  .site-footer p {
+  footer p {
     margin-left: 10px;
     font-size: 17px;
     margin-top: 5px;
