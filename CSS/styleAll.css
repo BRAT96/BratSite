@@ -36,7 +36,7 @@
   border: 0;
   font-size: 35px;
   cursor: pointer;
-  color: #b5a73c;
+  color: #d6c436;
   background: #1a1a1a;
   position: absolute;
   }
@@ -49,7 +49,7 @@
     display: inline-block;
     margin: 0 20px;
     position: relative;
-    color: #b5a73c;
+    color: #d6c436;
     text-decoration: none;
     transition: color .2s linear;
   }
@@ -91,7 +91,7 @@
   /*Подвал*/
   footer {
     font-family: 'Playfair Display', serif;
-    color: #b5a73c;
+    color: #d6c436;
     background: #1a1a1a;
     border-top: solid 1px #171717;
     flex: 0 0 auto;

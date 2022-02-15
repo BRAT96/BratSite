@@ -1,7 +1,7 @@
 #begin {
   font-size: 40px;
   font-family: 'Lobster', cursive;
-  color: #b5a73c;
+  color: #d6c436;
 }
 p {
   font-size: 20px;
@@ -14,8 +14,8 @@ p {
   font-size: 25px;
 }
 .blogs__linq {
-  color: white;
+  color: #cfcfcf;
 }
 .blogs__linq:hover{
-  color: #d1d1d1;
+  color: #d6c436;
 }
