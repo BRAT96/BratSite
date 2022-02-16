@@ -23,6 +23,10 @@ p {
     background-color: #363636;
     transition: background-color .5s linear;
 }
+.god1 {
+    background-color: #d6c436;
+    transition: background-color .5s linear;
+}
 .god:hover {
     background-color: #d6c436;
 }
