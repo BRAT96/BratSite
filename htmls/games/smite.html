@@ -5,7 +5,7 @@
     <title>EPIC BRAT</title>
     <link rel="stylesheet" type="text/css" href="../../CSS/styleAll.css">
     <link rel="stylesheet" type="text/css" href="../../CSS/styleGamesSmite.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../Images/Icon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../../Images/Icon.ico">
     <meta charset="utf-8">
     <meta name="author" content="БРАТ">
     <meta name="description" content="САЙТ ДЛЯ БРАТЬЕВ">
@@ -49,7 +49,80 @@
 
     <main>
       <p id="begin">SMITE</p>
-      <p>Здесь можно найти гайды на богов Smite.</p>
+      <nav id="textAndSearch">
+        <p>Здесь можно найти гайды на богов Smite.</p>
+        <form>
+          <input type="text" placeholder="Search gods..." id="what_search">
+          <button type="button" id="btnSearch"></button>
+        </form>
+      </nav>
+
+      <div class="gods__accordion">
+        <!--Анубис-->
+        <div class="god">
+          <input type="checkbox" name="Anubis" value="анубис" id="Anubis">
+          <nav class="god__top">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-Rhsdn3B1uwg7K-tbrbLbGTGlL9jBIcwBg&usqp=CAU"
+      width="50" height="50" alt="1" class="gods__avatar">
+            <label for="Anubis" class="god__name">Анубис</label>
+          </nav>
+          <div class="god__guide">
+            <div class="guide__photos">
+              <img src="../../Images/games/smite/anubis1.png"
+        width="735" height="305" alt="1">
+            </div>
+            <div class="guide__photos">
+              <img src="../../Images/games/smite/anubis2.png"
+        width="733" height="301" alt="1">
+            </div>
+          </div>
+        </div>
+        <!--Ао-Куан-->
+        <div class="god">
+          <input type="checkbox" name="Ao-Kuang" value="ао-куан" id="Ao-Kuang" class="godNameInput">
+          <nav class="god__top">
+            <img src="https://static.wikia.nocookie.net/smitegame/images/0/05/T_%D0%90%D0%BE-%D0%9A%D1%83%D0%B0%D0%BD_Default_Icon.png/revision/latest/scale-to-width-down/128?cb=20160201055736&path-prefix=ru"
+      width="50" height="50" alt="1" class="gods__avatar">
+            <label for="Ao-Kuang" class="god__name" value = "ао-куан">Ао-Куан</label>
+          </nav>
+          <div class="god__guide">
+            <div class="guide__photos">
+              <img src="../../Images/games/smite/ao-kuang1.png"
+        width="731" height="307" alt="1">
+            </div>
+            <div class="guide__photos">
+              <img src="../../Images/games/smite/ao-kuang2.png"
+         width="357" height="299" alt="1">
+            </div>
+          </div>
+        </div>
+        <!--Янус-->
+        <div class="god">
+          <input type="checkbox" name="Janus" value="янус" id="Janus" class="godNameInput">
+          <nav class="god__top">
+            <img src="https://static.wikia.nocookie.net/smitegame/images/a/ab/T_%D0%AF%D0%BD%D1%83%D1%81_Default_Icon.png/revision/latest/scale-to-width-down/128?cb=20160201062143&path-prefix=ru"
+      width="50" height="50" alt="1" class="gods__avatar">
+            <label for="Janus" class="god__name" value = "янус">Янус</label>
+          </nav>
+          <div class="god__guide">
+            <div class="guide__photos">
+              <img src="../../Images/games/smite/yanus1.png"
+         width="731" height="293" alt="1">
+            </div>
+            <div class="guide__photos">
+              <img src="../../Images/games/smite/yanus2.png"
+         width="731" height="293" alt="1">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="Table">
+
+      </div>
+
 
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -59,6 +132,6 @@
       <p> 2022 | Работает с божьей помощью. </p>
     </footer>
 
-
+  <script src="../../scripts/search.js"></script>
   </body>
 </html>

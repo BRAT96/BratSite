@@ -6,3 +6,102 @@
 p {
   font-size: 20px;
 }
+#textAndSearch{
+  width: 100%;
+  position: relative;
+}
+
+/*Аккордион Богов*/
+.gods__accordion {
+  margin-top: 100px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.god {
+    background-color: #363636;
+    transition: background-color .5s linear;
+}
+.god:hover {
+    background-color: #d6c436;
+}
+.god input, .god__guide {
+   display: none;
+}
+.god__name {
+  padding: 10px;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  transition: color .5s linear;
+}
+.god__name:hover {
+  color: black;
+}
+.god__guide {
+  background-color: #404040;
+  padding: 10px 20px;
+  text-align: center;
+  text-align:justify;
+}
+.god :checked ~ .god__guide {
+    display: block;
+}
+.gods__avatar{
+  margin-top: auto;
+  margin-bottom: auto;
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.god__top {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.guide__photos {
+  text-align: center;
+}
+
+
+
+/*ПОИСК*/
+form {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  background: #bfbfbf;
+  border-bottom: 4px solid #d6c436;
+  float: right;
+}
+#what_search, #btnSearch {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+#what_search {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+}
+#btnSearch {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+#btnSearch:before {
+  content: "\f178";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: black;
+}
