@@ -12,7 +12,7 @@ while (new Date() < ms){}
       for(i=0; i<collection.length; i++)
       {
         collection[i].parentNode.parentNode.classList.remove("god1");
-        if(collection[i].textContent.toLowerCase() == whatSearch || collection[i].textContent == whatSearch)
+        if(collection[i].textContent.toLowerCase() == whatSearch || collection[i].textContent == whatSearch || collection[i].textContent.toUpperCase() == whatSearch)
         {
           collection[i].parentNode.scrollIntoView({block: "center", behavior: "smooth"});
           collection[i].parentNode.parentNode.classList.add("god1");
