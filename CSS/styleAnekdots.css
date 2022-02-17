@@ -6,3 +6,52 @@
 p {
   font-size: 20px;
 }
+
+/*Аккордион Анекдотов*/
+.anekdots__accordion {
+  margin-top: 100px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.anekdot {
+    background-color: #363636;
+    transition: background-color .5s linear;
+}
+.anekdot:hover {
+    background-color: #d6c436;
+}
+.anekdot input, .anekdot__texts {
+   display: none;
+}
+.anekdot__name {
+  padding: 10px;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  transition: color .5s linear;
+}
+.anekdot__name:hover {
+  color: black;
+}
+.anekdot__texts {
+  background-color: #404040;
+  padding: 10px 20px;
+  text-align: center;
+  text-align:justify;
+  animation: ani 1s forwards;
+}
+@keyframes ani {
+  0% {transform: translateY(-2%);}
+  50% {transform: translateY(0);}
+}
+.anekdot :checked ~ .anekdot__texts {
+    display: block;
+}
+.anekdot__texts ol li {
+  padding-top: 20px;
+}

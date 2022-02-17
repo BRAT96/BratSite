@@ -51,6 +51,11 @@ p {
   padding: 10px 20px;
   text-align: center;
   text-align:justify;
+  animation: ani 1s forwards;
+}
+@keyframes ani {
+  0% {transform: translateY(-2%);}
+  50% {transform: translateY(0);}
 }
 .god :checked ~ .god__guide {
     display: block;
