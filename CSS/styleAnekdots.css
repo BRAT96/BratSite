@@ -42,7 +42,7 @@ p {
   background-color: #404040;
   padding: 10px 20px;
   text-align: center;
-  text-align:justify;
+  text-align: justify;
   animation: ani 1s forwards;
 }
 @keyframes ani {
