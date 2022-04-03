@@ -95,6 +95,7 @@
  .dropdown-content {
    margin-left: 10px;
    display: none;
+   width: auto;
    position: absolute;
    z-index: 1;
    background-color: #1a1a1a;
@@ -107,6 +108,7 @@
    text-decoration: none;
    display: block;
    transition: color .2s linear;
+   white-space: nowrap;
  }
   .game__link:hover{
     color: white;

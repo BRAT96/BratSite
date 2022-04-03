@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<!--РЭП-->
+  <head>
+    <title>EPIC BRAT</title>
+    <link rel="stylesheet" type="text/css" href="../../CSS/styleAll.css">
+    <link rel="stylesheet" type="text/css" href="../../CSS/styleAnime.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../Images/Icon.ico">
+    <meta charset="utf-8">
+    <meta name="author" content="БРАТ">
+    <meta name="description" content="Раздел с топ лучших аниме.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <script>
+    var audio = new Audio("../../Sound/Bruh.mp3");
+    audio.oncanplaythrough = function ( ) { }
+    audio.onended = function ( ) { }
+    </script>
+
+    <header>
+      <div class="header-bg"></div>
+      <nav class="nav">
+        <div class="Br">
+<input type="button" value="BR" onclick="audio.play ( )">
+        </div>
+        <div class="nav_links">
+          <a class="nav__link" href="../../index.html">Главная</a>
+          <a class="nav__link" href="../anekdots.html">Анекдоты</a>
+          <a class="nav__link" href="../rap.html">Рэпчик</a>
+          <a class="nav__link" href="../wanted.html">Блоги</a>
+
+          <div class="dropdown">
+            <button class="dropbtn">Игры</button>
+              <div class="dropdown-content">
+                <a class="game__link" href="../games/smite.html">Smite</a>
+              </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Аниме</button>
+              <div class="dropdown-content">
+                <a class="game__link" href="bestAnime.html">Топ лучших Аниме</a>
+                <a class="game__link" href="cringeAnime.html">Топ кринжовых Аниме</a>
+              </div>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <p id="TopName">Топ лучших фильмов и сериалов Аниме</p>
+
+        <div class="TopAnime">
+
+            <div class="anime">
+              <div class="image">
+                <img class="animeImage" src="https://brat96.github.io/photos/Images/anime/bestAnime/1Aot4.1.png" alt="AnimeImage">
+                <nav class="someInformation">
+                  <div class="series">16 серий</div>
+                  <div class="rating"><img src="../../Images/star.png" alt="">9.1</div>
+                </nav>
+                <div class="animeImageText">
+                  Финал величайшего аниме всех времен и народов. Главный герой уже одержал победу над колоколом и большими людьми.
+                  После совершеннолетия он понял, что жизнь - говно, стал dead inside'ом и сбежал из дома.
+                  На чужбине его ждут сражения с местными аборигенами и новые приключения.
+                   Выживет только сильнейший. Борись.
+                </div>
+              </div>
+              <div class="byLine">
+                <p class="animeName">Атака титанов: Финал. Часть 1</p>
+                <p class="animeYear">(2020)</p>
+              </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+      <p> 2022 | Работает с божьей помощью. </p>
+    </footer>
+
+
+  </body>
+</html>

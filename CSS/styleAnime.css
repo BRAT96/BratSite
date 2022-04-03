@@ -7,3 +7,105 @@ p {
   font-size: 20px;
 }
 /**/
+#TopName {
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+  color: #d6c436;
+  text-align: center;
+}
+
+/*Весь ТОП*/
+.TopAnime {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.anime {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 23%;
+  position: relative;
+}
+.image {
+  text-align: center;
+  width: 100%;
+}
+.animeImage {
+  text-align: center;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  -ms-interpolation-mode: nearest-neighbor;  /* IE */
+  image-rendering: crisp-edges; /* Стандартное свойство */
+  width: 100%;
+  height: 100%;
+  transition: filter .3s linear;
+}
+.someInformation {
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 7%;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.series {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  background: #d6c436;
+  left: 0;
+  font-size: 1.2vw;
+  color: black;
+  font-weight: bold;
+}
+
+.rating {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  background: #40b9bd;
+  right: 0;
+  font-size: 1.2vw;
+  color: black;
+  font-weight: bold;
+}
+.rating img {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+}
+.byLine {
+  text-align: center;
+  position: relative;
+}
+.animeName {
+
+}
+.animeYear {
+  color: #b0b0b0;
+  font-size: 16px;
+}
+
+/*Навод на картинку*/
+.animeImageText {
+  font-size: 1.1vw;
+  position: absolute;
+  width: 85%;
+  padding-left: 5px;
+  word-wrap: break-word;
+  margin-top: -85%;
+  opacity: 0;
+  transition: opacity .3s linear;
+}
+
+.anime :hover .animeImageText{
+  opacity: 1;
+  cursor: pointer;
+}
+.anime :hover .animeImage{
+  filter: drop-shadow(0 0 8px yellow);
+  opacity: 0.4;
+  cursor: pointer;
+}
