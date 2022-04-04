@@ -31,6 +31,7 @@ p {
   text-align: center;
   width: 100%;
 }
+
 .animeImage {
   text-align: center;
   image-rendering: -moz-crisp-edges; /* Firefox */
@@ -40,6 +41,16 @@ p {
   height: 100%;
   transition: filter .3s linear;
 }
+.animeImage1 {
+  text-align: center;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  -ms-interpolation-mode: nearest-neighbor;  /* IE */
+  image-rendering: crisp-edges; /* Стандартное свойство */
+  width: 100%;
+  height: 100%;
+  transition: filter .3s linear;
+}
+
 .someInformation {
   display: block;
   position: absolute;
@@ -50,6 +61,7 @@ p {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 .series {
   position: absolute;
   width: 30%;
@@ -59,6 +71,18 @@ p {
   font-size: 1.2vw;
   color: black;
   font-weight: bold;
+  opacity: 0.8;
+}
+.series1 {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  background: #40b9bd;
+  left: 0;
+  font-size: 1.2vw;
+  color: black;
+  font-weight: bold;
+  opacity: 0.8;
 }
 
 .rating {
@@ -70,19 +94,39 @@ p {
   font-size: 1.2vw;
   color: black;
   font-weight: bold;
+  opacity: 0.8;
 }
+.rating1 {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  background: #d6c436;
+  right: 0;
+  font-size: 1.2vw;
+  color: black;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
 .rating img {
   height: 15px;
   width: 15px;
   padding-right: 5px;
+  opacity: 0.8;
 }
+.rating1 img {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+  opacity: 0.8;
+}
+
 .byLine {
   text-align: center;
   position: relative;
 }
-.animeName {
+.animeName { }
 
-}
 .animeYear {
   color: #b0b0b0;
   font-size: 16px;
@@ -95,17 +139,21 @@ p {
   width: 85%;
   padding-left: 5px;
   word-wrap: break-word;
-  margin-top: -85%;
+  margin-top: -88%;
   opacity: 0;
   transition: opacity .3s linear;
 }
-
 .anime :hover .animeImageText{
   opacity: 1;
   cursor: pointer;
 }
 .anime :hover .animeImage{
   filter: drop-shadow(0 0 8px yellow);
-  opacity: 0.4;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.anime :hover .animeImage1{
+  filter: drop-shadow(0 0 8px #40b9bd);
+  opacity: 0.3;
   cursor: pointer;
 }
