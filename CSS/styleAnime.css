@@ -149,11 +149,11 @@ p {
 }
 .anime :hover .animeImage{
   filter: drop-shadow(0 0 8px yellow);
-  opacity: 0.3;
+  opacity: 0.2;
   cursor: pointer;
 }
 .anime :hover .animeImage1{
   filter: drop-shadow(0 0 8px #40b9bd);
-  opacity: 0.3;
+  opacity: 0.2;
   cursor: pointer;
 }
