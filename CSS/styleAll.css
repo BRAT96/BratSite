@@ -36,6 +36,8 @@
   outline: none;
   border: 0;
   font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
   cursor: pointer;
   color: #d6c436;
   background: #1a1a1a;

@@ -9,7 +9,8 @@ p {
 
 /*Аккордион Анекдотов*/
 .anekdots__accordion {
-  margin-top: 100px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
